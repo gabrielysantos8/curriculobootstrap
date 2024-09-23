@@ -3,26 +3,25 @@ body{
 }
 
 
-.menu{
+header{
     background-color: #D3D3D3; 
     text-align: right;
     
 }
 
-a{
-    color: #000000;
-    margin-right: 2%;
+nav-item:hover {
+    color: #7c2484;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-a:link {
+.nav-link{
     color: #000000;
     background-color: transparent;
     text-decoration: none;
 }
 
-a:hover {
-    color: #8B0000;
-    background-color: transparent;
-    text-decoration: none;
+img{
+    width: 50%;
 }
   
