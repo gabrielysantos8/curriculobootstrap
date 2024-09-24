@@ -9,7 +9,11 @@ header{
     
 }
 
-nav-item:hover {
+footer{
+    background-color: #7c2484;
+}
+
+.nav-link:hover {
     color: #7c2484;
     background-color: transparent;
     text-decoration: none;
@@ -23,5 +27,16 @@ nav-item:hover {
 
 img{
     width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+.sobre{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: justify;
+}
+
+
   
