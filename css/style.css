@@ -2,12 +2,17 @@ body{
     background-color: #f3f3f3;
 }
 
+section{
+    padding: 1%;
+}
 
 header{
     background-color: #D3D3D3; 
     text-align: right;
     
 }
+
+
 
 footer{
     background-color: #7c2484;
@@ -37,6 +42,32 @@ img{
     margin-right: 30%;
     text-align: justify;
 }
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: #484848;
+}
+
+.progress{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #7c2484;
+}
+
+h6{
+    margin-left: 20%;
+    
+}
+
+p{
+    text-align: center;
+}
+
 
 
   
