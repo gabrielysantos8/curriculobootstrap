@@ -12,10 +12,9 @@ header{
     
 }
 
-
-
 footer{
     background-color: #7c2484;
+    padding: 1%;
 }
 
 .nav-link:hover {
@@ -70,4 +69,30 @@ p{
 
 
 
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-6{
+    width: 50%;
+}
+
+
+
+.git{
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.rodape{
+    text-align: left;
+    margin-left: 5%;
+}
+
+.contato{
+    text-align: left;
+}
   
