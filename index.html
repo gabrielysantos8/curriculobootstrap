@@ -30,10 +30,13 @@
 
     <main>
       <section id="sobre">
-        <img src="img/banner.png" alt="">
 
-        <h1>Sobre mim</h1>
-        <p class="sobre">Eu sou Gabriely Santos Pereira, tenho 15 anos e moro em Rio Grande da Serra. Atualmente estou cursando o 1º ano do ensino médio com técnico em informática, na Etec Professora Maria Cristina Medeiros. Gosto bastante de tocar guitarra e violão, e aprender novos instrumentos.</p>
+            <img src="img/banner.png" alt="">
+        
+
+            <h1>Sobre mim</h1>
+            <p class="sobre">Eu sou Gabriely Santos Pereira, tenho 15 anos e moro em Rio Grande da Serra. Atualmente estou cursando o 1º ano do ensino médio com técnico em informática, na Etec Professora Maria Cristina Medeiros. Gosto bastante de tocar guitarra e violão, e aprender novos instrumentos.</p>
+     
       </section>
       
       <section id="qualificacoes">
@@ -83,20 +86,65 @@
       <section id="portifolio">
         <h1>Portifólio</h1>
 
-        <div class="carousel-item">
-          <img src="..." alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>...</h5>
-            <p>...</p>
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/florzinha.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Desenho da Florzinha</h5>
+                <p>Feito no Illustrator</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/sitehp.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="sitehp">Meu primeiro site</h5>
+                <p class="sitehp">Feito com HTML e CSS</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/divertidamente.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Divertidamente</h5>
+                <p>Feito no Photoshop</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </section>
 
       <section id="contato">
         <h1>Contato</h1>
 
-       <p class="contato">Gabrielysantosp7@gmail.com</p>
-       <p class="contato">São Paulo</p>
+        <div class="linha">
+          <div class="col-6">
+            <img class="email" src="img/email.png" alt="">
+          </div>
+          <div>
+            <p class="contato">gabrielysantosp7@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="linha">
+          <div class="col-6">
+            <img class="localizacao" src="img/localizacao.png" alt="">
+          </div>
+          <div>
+            <p class="contato">São Paulo</p>
+          </div>
+        </div>
 
       </section>
 

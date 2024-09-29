@@ -1,14 +1,17 @@
 body{
     background-color: #f3f3f3;
+    
 }
 
 section{
     padding: 1%;
+    margin-top: 5%;
 }
 
 header{
     background-color: #D3D3D3; 
     text-align: right;
+    
     
 }
 
@@ -96,3 +99,20 @@ p{
     text-align: left;
 }
   
+.email{
+    width: 4%;
+    float: right;
+}
+
+.localizacao{
+    width: 4%;
+    float: right;
+}
+
+.carousel-item{
+    width: 50%;
+    margin-left: 13%;
+    
+}
+
+
