@@ -109,10 +109,115 @@ p{
     float: right;
 }
 
+
 .carousel-item{
     width: 50%;
     margin-left: 13%;
-    
 }
 
+.btn{
+    float: right;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+
+/*menu*/
+
+@media only screen and (max-width: 600px){
+    .menu-icon {
+      display: block;
+      padding-right: 10px;
+  }
+  
+  nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      background-color: #7c2484;
+      top: 20px;
+      left: 0;
+      z-index: 1;
+      padding: 0;
+  }
+  
+  #menu-toggle:checked + .menu-icon + ul {
+      display: flex;
+  }
+  
+  nav ul li {
+      text-align: center;
+      margin: 0;
+  }
+  
+  nav ul li a {
+      padding: 15px 0;
+  }
+  
+  nav ul li label {
+      /* width: 100%; */
+      display: block;
+  }
+  }
+
+  @media screen and (max-width: 600px) {
+    img {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+
+    .carousel-item{
+        width: 70%;
+        margin-left: 10%;
+        
+    }
+
+    .contato{
+        text-align: left;
+    }
+      
+    .email{
+        width: 7%;
+            
+    }
+    
+    .localizacao{
+        width: 7%;
+        float: right;
+    }
+    .col-6{
+        margin-left: 12
+        
+    }
+        
+
+  }
 

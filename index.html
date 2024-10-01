@@ -9,23 +9,29 @@
   </head>
   <body>
     <header>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#sobre">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#qualificacoes">Qualificações</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#cursos">Cursos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#portifolio">Portifólio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contato">Contato</a>
-        </li>
-      </ul>
+
+      <nav id="menu"> 
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul>
+
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre" onclick="document.getElementById('menu-toggle').click()">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#qualificacoes" onclick="document.getElementById('menu-toggle').click()">Qualificações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cursos" onclick="document.getElementById('menu-toggle').click()">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portifolio" onclick="document.getElementById('menu-toggle').click()">Portifólio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato" onclick="document.getElementById('menu-toggle').click()">Contato</a>
+          </li>
+        </ul>
     </header>
 
     <main>
@@ -42,9 +48,9 @@
       <section id="qualificacoes">
         <h1>Qualificações</h1>
         <h4>Linguagens em processo de aprendizagem:</h4>
-        <h6>HTML  70%</h6> 
+        <h6>HTML  60%</h6> 
         <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
-          <div class="progress-bar progress-bar-striped" style="width: 70%"></div>
+          <div class="progress-bar progress-bar-striped" style="width: 60%"></div>
         </div>
 
         <h6>CSS  55%</h6>
@@ -133,7 +139,7 @@
             <img class="email" src="img/email.png" alt="">
           </div>
           <div>
-            <p class="contato">gabrielysantosp7@gmail.com</p>
+            <p class="contato"  >gabrielysantosp7@gmail.com</p>
           </div>
         </div>
 
