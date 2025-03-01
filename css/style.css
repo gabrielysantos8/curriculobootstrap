@@ -1,5 +1,5 @@
 body{
-    background-color: #f3f3f3;
+    background-color: #464444;
     
 }
 
@@ -9,7 +9,7 @@ section{
 }
 
 header{
-    background-color: #D3D3D3; 
+    background-color: #464444; 
     text-align: right;
     
     
@@ -32,26 +32,79 @@ footer{
     text-decoration: none;
 }
 
-img{
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.sobre{
-    width: 40%;
-    margin-left: 30%;
-    margin-right: 30%;
-    text-align: justify;
-}
-
 h1{
     text-align: center;
+    color: #e2e2e2;
+}
+
+p{
+    color: #e2e2e2;
 }
 
 h4{
     text-align: center;
     color: #484848;
+}
+
+h5{
+    color: #e2e2e2;
+}
+
+.titulo{
+    color: #7c2484;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.titulos{
+    text-shadow: 5px 5px 10px #7c2484;
+}
+
+.inicio{
+    text-align: center;
+}
+
+/*seção sobre mim*/
+
+.color{
+    background-color: #7c2484;
+    border: #7c2484;
+    border-radius: 50%;
+}
+
+.color:hover{
+    background-color: #7c2484;
+}
+
+.sobremim{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.col-3{
+    width: 30%;
+}
+
+.col-9{
+    width: 70%;
+}
+
+.fotodeperfil{
+    width: 50%;
+    margin-left: 40%;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 10px #7c2484);
+    
+}
+
+.sobre{
+    margin-right: 20%;
+}
+
+.alinhamento{
+    margin-right: 91%;
 }
 
 .progress{
@@ -64,10 +117,6 @@ h4{
 h6{
     margin-left: 20%;
     
-}
-
-p{
-    text-align: center;
 }
 
 

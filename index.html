@@ -6,6 +6,8 @@
     <title>Currículo</title>
     <link href="css/bootstrap.css" rel="stylesheet" >
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
   </head>
   <body>
     <header>
@@ -13,17 +15,19 @@
       <nav id="menu"> 
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="menu-icon">&#9776;</label>
-        <ul>
 
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#sobre" onclick="document.getElementById('menu-toggle').click()">Home</a>
+            <a class="nav-link active" aria-current="page" href="#sobre" onclick="document.getElementById('menu-toggle').click()">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#escolaridade" onclick="document.getElementById('menu-toggle').click()">Escolaridade</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificacoes" onclick="document.getElementById('menu-toggle').click()">Certificações</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#qualificacoes" onclick="document.getElementById('menu-toggle').click()">Qualificações</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#cursos" onclick="document.getElementById('menu-toggle').click()">Cursos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#portifolio" onclick="document.getElementById('menu-toggle').click()">Portifólio</a>
@@ -35,14 +39,28 @@
     </header>
 
     <main>
+      <section>
+        <h1 class="titulo">Bem-vindo ao meu portifólio!</h1>
+        <p class="inicio">Aqui falo um pouco sobre mim, sobre meus estudos e habilidades e também mostro alguns trabalhos e projetos escolares.</p>
+      </section>
+
       <section id="sobre">
-
-            <img src="img/banner.png" alt="">
-        
-
-            <h1>Sobre mim</h1>
-            <p class="sobre">Eu sou Gabriely Santos Pereira, tenho 15 anos e moro em Rio Grande da Serra. Atualmente estou cursando o 1º ano do ensino médio com técnico em informática, na Etec Professora Maria Cristina Medeiros. Gosto bastante de tocar guitarra e violão, e aprender novos instrumentos.</p>
-     
+        <h1 class="titulos">Sobre mim</h1>
+        <div class="sobremim">
+          <div class="col-3">
+            <img class="fotodeperfil" src="img/gaby.png" alt="">
+          </div>
+          <div class="col-9">
+          <h1 class="sobremim">Prazer, Gabriely!</h1>
+          <h5>Estudante de informática</h5>
+          <p class="sobre">Eu sou Gabriely Santos Pereira, tenho 16 anos e resido no munícipio de 
+          Rio Grande da Serra. Atualmente estou cursando o ensino médio com técnico em 
+          informática para Internet na Etec Professora Maria Cristina Medeiros. Estou sempre buscando aprimorar
+          meus conhecimentos e aprender cada vez mais sobre essa área.</p>
+          <a href="https://www.instagram.com/gabysantosxz/" class="btn btn-danger color alinhamento"><i class="bi bi-instagram"></i></a>
+          <a href="https://github.com/gabrielysantos8/" class="btn btn-danger color "><i class="bi bi-github"></i></a>
+          </div>      
+        </div>
       </section>
       
       <section id="qualificacoes">
