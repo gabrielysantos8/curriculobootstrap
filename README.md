@@ -1,1 +1,1 @@
-# https://gabrielysantos8.github.io/curriculobootstrap/
+https://gabrielysantos8.github.io/curriculobootstrap/
