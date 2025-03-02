@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Currículo</title>
-    <link href="css/bootstrap.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
 
@@ -12,30 +12,25 @@
   <body>
     <header>
 
-      <nav id="menu"> 
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="menu-icon">&#9776;</label>
-
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#sobre">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#escolaridade">Escolaridade</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#certificacoes">Certificações</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#qualificacoes">Qualificações</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portifolio">Portifólio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contato">Contato</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+              <li class="nav-item"><a class="nav-link" href="#escolaridade">Escolaridade</a></li>
+              <li class="nav-item"><a class="nav-link" href="#certificacoes">Certificações</a></li>
+              <li class="nav-item"><a class="nav-link" href="#qualificacoes">Qualificações</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portifolio">Portfólio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
@@ -200,7 +195,6 @@
     </div>
       
     </footer>
-
-    <script src="js\bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
