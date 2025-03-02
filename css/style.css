@@ -46,7 +46,7 @@ h4{
     color: #484848;
 }
 
-h5{
+h5, h2{
     color: #e2e2e2;
 }
 
@@ -95,8 +95,7 @@ h5{
     width: 50%;
     margin-left: 40%;
     border-radius: 50%;
-    filter: drop-shadow(0px 4px 10px #7c2484);
-    
+    filter: drop-shadow(0px 4px 10px #7c2484);   
 }
 
 .sobre{
@@ -106,6 +105,43 @@ h5{
 .alinhamento{
     margin-right: 91%;
 }
+
+/* Alinhar os botões lado a lado */
+.social-links {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+/* Ajuste do layout para telas menores */
+@media (max-width: 768px) {
+    .sobremim {
+        display: flex;
+        flex-direction: column; /* Empilha os elementos na vertical */
+        align-items: center;
+        text-align: center;
+    }
+
+    .col-3, .col-9 {
+        width: 100%; /* Ocupa toda a largura da tela */
+    }
+
+    .fotodeperfil {
+        max-width: 150px; /* Ajusta o tamanho da imagem para telas pequenas */
+        margin-left: 0%;
+    }
+
+    .sobre{
+        margin-right: 0%;
+    }
+
+    /* Centralizar os botões */
+    .social-links {
+        display: flex;
+        justify-content: center; /* Centraliza os botões */
+        margin-top: 10px; /* Espaçamento superior */
+    }
+}
+
 
 .progress{
     width: 60%;
