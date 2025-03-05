@@ -18,7 +18,7 @@ footer{
     background-color: #464444; 
 }
 
-  .navbar-custom .nav-link {
+.navbar-custom .nav-link {
     color: white; /* Cor do texto */
     background-color: transparent;
     text-decoration: none;
@@ -162,6 +162,76 @@ html{
         margin-top: 10px; /* Espaçamento superior */
     }
 }
+
+/*seção escolaridade*/
+
+.timeline {
+    border-left: 1px solid hsl(0, 0%, 90%);
+    position: relative;
+    list-style: none;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.timeline .timeline-item {
+    position: relative;
+}
+  
+.timeline .timeline-item:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+  
+.timeline .timeline-item:after {
+    background-color: hsl(0, 0%, 90%);
+    left: -38px;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+}
+
+/*certificaçoes*/
+
+.colcard {
+    display: flex;
+    justify-content: center;
+}
+
+.btncor{
+    background-color: #7c2484;
+}
+
+.btncor{
+    color:  #e2e2e2;
+}
+
+.btncor:hover{
+    background-color: #551a5a;
+    color:  #e2e2e2;
+}
+
+.card{
+    background-color: #1d1d1d;
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.cortitulo{
+    color: #e2e2e2;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+}
+
 
 
 .progress{
