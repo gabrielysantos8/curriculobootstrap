@@ -8,6 +8,10 @@ section{
     margin-top: 5%;
 }
 
+main{
+    margin-top: 100px;
+}
+
 
 footer{
     background-color: #7c2484;
@@ -76,7 +80,7 @@ html{
   }
   
 :target{
-    scroll-margin-top: 150px;
+    scroll-margin-top: 100px;
 }
 
 /*seção sobre mim*/
@@ -149,6 +153,7 @@ html{
     .fotodeperfil {
         max-width: 150px; /* Ajusta o tamanho da imagem para telas pequenas */
         margin-left: 0%;
+        margin-right: 0%;
     }
 
     .sobre{
@@ -214,8 +219,10 @@ html{
 }
 
 .card{
-    background-color: #1d1d1d;
+    background-color: #303030;
     transition: all 0.5s ease;
+    box-shadow: 3px 3px 10px #7c2484;
+    border-radius: 20px;
 }
 .card:hover{
     transform: scale(1.1);
