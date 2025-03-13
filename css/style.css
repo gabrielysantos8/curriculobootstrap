@@ -85,6 +85,21 @@ html{
 
 /*seção sobre mim*/
 
+@keyframes openEffect {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.titulo, .inicio{
+    animation: openEffect 1s ease-out;
+}
+
 .color{
     background-color: #7c2484;
     border: #7c2484;
@@ -137,36 +152,7 @@ html{
     gap: 10px; /* Espaçamento entre os botões */
 }
 
-/* Ajuste do layout para telas menores */
-@media (max-width: 768px) {
-    .sobremim {
-        display: flex;
-        flex-direction: column; /* Empilha os elementos na vertical */
-        align-items: center;
-        text-align: center;
-    }
 
-    .col-3, .col-9 {
-        width: 100%; /* Ocupa toda a largura da tela */
-    }
-
-    .fotodeperfil {
-        max-width: 150px; /* Ajusta o tamanho da imagem para telas pequenas */
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-    .sobre{
-        margin-right: 0%;
-    }
-
-    /* Centralizar os botões */
-    .social-links {
-        display: flex;
-        justify-content: center; /* Centraliza os botões */
-        margin-top: 10px; /* Espaçamento superior */
-    }
-}
 
 /*seção escolaridade*/
 
@@ -218,13 +204,13 @@ html{
     color:  #e2e2e2;
 }
 
-.card{
+.cardcetif{
     background-color: #303030;
     transition: all 0.5s ease;
     box-shadow: 3px 3px 10px #7c2484;
     border-radius: 20px;
 }
-.card:hover{
+.cardcetif:hover{
     transform: scale(1.1);
     z-index: 1;
 }
@@ -240,20 +226,12 @@ html{
 }
 
 
-
-.progress{
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    color: #7c2484;
-}
+/*qualificações*/
 
 h6{
-    margin-left: 20%;
-    
+    color: #e2e2e2 ;
+    text-align: center;
 }
-
-
 
 .linha{
     display: flex;
@@ -266,74 +244,62 @@ h6{
     width: 50%;
 }
 
-
-
-.git{
-    text-decoration: none;
-    color: #f3f3f3;
+.progress{
+    margin: 10px;
+    box-shadow: 3px 3px 10px #7c2484;
+    background-color: #303030;
 }
 
-.rodape{
-    text-align: left;
-    margin-left: 5%;
+.barra{
+    background-color: #7c2484;
 }
 
-.contato{
-    text-align: left;
-}
-  
-.email{
-    width: 4%;
-    float: right;
+/*potifólio*/
+
+.cardport{
+    background-color: #303030;
+    margin: 20px;
+    box-shadow: 3px 3px 10px #7c2484;
+    border: none;
 }
 
-.localizacao{
-    width: 4%;
-    float: right;
+.card-title{
+    color: #e2e2e2;
 }
 
 
-.carousel-item{
-    width: 50%;
-    margin-left: 13%;
-}
-
-.btn{
-    float: right;
-}
-
-
-  @media screen and (max-width: 600px) {
-    img {
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
+/* Ajuste do layout para telas menores */
+@media (max-width: 768px) {
+    .sobremim {
+        display: flex;
+        flex-direction: column; /* Empilha os elementos na vertical */
+        align-items: center;
+        text-align: center;
     }
 
-    .carousel-item{
-        width: 70%;
-        margin-left: 10%;
-        
+    .col-3, .col-9, .col-6 {
+        width: 100%; /* Ocupa toda a largura da tela */
     }
 
-    .contato{
-        text-align: left;
+    .fotodeperfil {
+        max-width: 150px; /* Ajusta o tamanho da imagem para telas pequenas */
+        margin-left: 0%;
+        margin-right: 0%;
     }
-      
-    .email{
-        width: 7%;
-            
-    }
-    
-    .localizacao{
-        width: 7%;
-        float: right;
-    }
-    .col-6{
-        margin-left: 12
-        
-    }
-        
 
-  }
+    .sobre{
+        margin-right: 0%;
+    }
+
+    /* Centralizar os botões */
+    .social-links {
+        display: flex;
+        justify-content: center; /* Centraliza os botões */
+        margin-top: 10px; /* Espaçamento superior */
+    }
+}
+
+
+
+
 
