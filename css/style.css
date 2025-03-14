@@ -268,6 +268,50 @@ h6{
 }
 
 
+/*contato*/
+
+.coricon{
+    color: #e2e2e2;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column; /* Itens um abaixo do outro */
+    align-items: center; /* Centraliza na tela */
+    gap: 20px; /* Espaço entre os blocos */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+.info-item {
+    display: flex;
+    align-items: center; /* Alinha os ícones com os textos */
+    gap: 10px; /* Espaço entre o ícone e o texto */
+}
+
+i {
+    font-size: 20px; /* Tamanho do ícone */
+    color: #7c2484; /* Cor do ícone */
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column; /* Coloca o título e o texto um abaixo do outro */
+}
+
+strong {
+    font-size: 16px;
+    color: #7c2484; /* Cor do texto em negrito */
+    text-shadow: 5px 5px 10px #000000;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #e2e2e2; 
+}
+
+
 /* Ajuste do layout para telas menores */
 @media (max-width: 768px) {
     .sobremim {
