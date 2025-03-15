@@ -270,9 +270,6 @@ h6{
 
 /*contato*/
 
-.coricon{
-    color: #e2e2e2;
-}
 
 .info-container {
     display: flex;
@@ -288,9 +285,9 @@ h6{
     gap: 10px; /* Espaço entre o ícone e o texto */
 }
 
-i {
+.coricon{
     font-size: 20px; /* Tamanho do ícone */
-    color: #7c2484; /* Cor do ícone */
+    color: #e2e2e2;; /* Cor do ícone */
     text-shadow: 5px 5px 10px #000000;
 }
 
